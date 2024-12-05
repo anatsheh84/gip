@@ -5,7 +5,7 @@ metadata:
     name: pacman
     app.kubernetes.io/name: pacman
   name: pacman
-  namespace: pacman-app
+  #namespace: pacman-app
 spec:
   replicas: 1
   selector:
