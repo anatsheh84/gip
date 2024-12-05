@@ -5,7 +5,7 @@ metadata:
     name: mongo
     app.kubernetes.io/name: pacman
   name: mongo
-  namespace: pacman-app
+  #namespace: pacman-app
 spec:
   type: ClusterIP
   ports:
