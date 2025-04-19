@@ -21,4 +21,4 @@ spec:
       - image: centos:latest
         name: pacman-load
         command: ["/bin/sh", "-c"]
-        args: ["while true; do curl https://pacman-pacman02.apps.cluster01.sandbox2334.opentlc.com && sleep 1; done"]
+        args: ["while true; do curl -k https://pacman-pacman02.apps.cluster01.sandbox2334.opentlc.com && sleep 1; done"]
